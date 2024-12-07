@@ -19,7 +19,7 @@ class Day3
         return Part1(enabled);
     }
 
-    public void solve()
+    public void Solve()
     {
         var input = File.ReadAllText("inputs/3");
         Console.WriteLine(Part1(input));

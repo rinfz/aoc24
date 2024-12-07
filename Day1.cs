@@ -11,7 +11,7 @@ class Day1
         return left.Sum(x => x * counts.GetValueOrDefault(x, 0));
     }
 
-    public void solve()
+    public void Solve()
     {
         var input = File.ReadAllLines("inputs/1").Select(line =>
         {

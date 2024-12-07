@@ -1,3 +1,3 @@
-﻿var day = new Day4();
-day.solve();
+﻿var day = new Day7();
+day.Solve();
 

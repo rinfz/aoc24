@@ -33,7 +33,7 @@ class Day2
         return false;
     }
 
-    public void solve()
+    public void Solve()
     {
         var input = File.ReadAllLines("inputs/2");
         var reports = input.Select(line => line.Split(' ').Select(int.Parse).ToArray()).ToArray();

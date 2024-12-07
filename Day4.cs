@@ -92,7 +92,7 @@ class Day4
         return result;
     }
 
-    public void solve()
+    public void Solve()
     {
         var input = File.ReadAllLines("inputs/4");
         Console.WriteLine(MapWindow(input, 4, CountXmas));
